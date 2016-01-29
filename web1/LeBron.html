@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LeBron James</title>
+<style>
+li{
+	list-style:none;
+}
+body{
+	padding:0;
+	margin:0;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	background:#333;
+}
+.coveflow{
+	width:1px;
+	height:1px;
+	position:absolute;
+	top:50%;
+	left:50%;
+}
+.coveflow *{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	top: -197px;
+}
+.coveflow div{
+	width: 480px;
+	height: 360px;
+	position: absolute;
+	-webkit-transition: -webkit-transform  300ms ease-out;
+	left: -8px;
+}
+.coveflow ul{
+	-webkit-perspective: 480;
+	-webkit-transform-style:flat;
+}
+.coveflow li{
+	display:block;
+	width:480px;
+	-webkit-transition: -webkit-transform 300ms ease-out; 
+	-webkit-box-reflect: below 0 -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(60%, transparent), to(rgba(255,255,255,.2)));
+}
+.coveflow .turnLeft,.coveflow .turnRight{
+	-webkit-transform: scale(.6);
+	
+}
+.coveflow .turnLeft li{
+	-webkit-transform: rotateY(40deg);
+}
+
+.coveflow .turnRight li{
+	-webkit-transform: rotateY(-40deg);
+}
+.coveflow .flat{
+	-webkit-transform: scale(1);
+}
+.coveflow .flat li{
+	-webkit-transform: rotateY( 0deg );
+}
+body,td,th {
+	color: #FF0;
+	font-size: larger;
+}
+</style>
+</head>
+
+<body>
+<div id="coveflow" class="coveflow">
+  <div >
+        <ul>
+            <li>
+                <img src="pic/1.jpg" />
+            </li>
+        </ul>
+    </div>
+  <div >
+        <ul>
+            <li>
+                <img src="pic/2.jpg" />
+            </li>
+        </ul>
+    </div>
+  <div >
+        <ul>
+            <li>
+                <img src="pic/3.jpg" />
+            </li>
+        </ul>
+    </div>
+  <div >
+        <ul>
+            <li>
+                <img src="pic/4.jpg" />
+            </li>
+        </ul>
+    </div>
+  <div>
+        <ul>
+            <li>
+                <img src="pic/5.jpg" />
+            </li>
+        </ul>
+    </div>
+  <div>
+        <ul>
+            <li>
+                <img src="pic/6.jpg" />
+            </li>
+        </ul>
+    </div>
+  <div>
+        <ul>
+            <li>
+                <img src="pic/7.jpg" />
+            </li>
+        </ul>
+    </div>
+    <div>
+      <ol>
+        <ol>
+          <li><img src="pic/8.jpg" />
+          </li>
+        </ol>
+        <p>&nbsp;</p>
+      </ol>
+    </div>
+</div>
+
+<div style="display: none">
+    <script language="javascript" type="text/javascript" src="http://js.users.51.la/4473358.js"></script>
+    <script type="text/javascript">
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fadd0db9dee36c7a9b64141788e26de72' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-21395429-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+</script>
+    </div>
+
+<script src="jquery.js" ></script>
+<script src="coveflow.js" ></script>
+<div>
+  <div align="center"> 
+    <p>&nbsp;</p>
+    <p><strong>Some images of LeBron James </strong>  </p>
+  </div>
+</div>
+<ol>
+  <li></li>
+</ol>
+<script>
+$('#coveflow').coveflow({onIndexChanged:function(index){alert(index)}});
+</script>
+</body>
+</html>

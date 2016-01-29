@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title>My Web Page</title>
+		<link type="text/css" rel="stylesheet" href="style1.css" />
+		<style type="text/css"></style>	
+		<script type="text/javascript" language="javascript">
+			function search()
+			{
+			window.open("http://www.baidu.com/s?tn=tcha_pg&word="+document.myform.mytext.value+"")
+			}
+		</script>
+		<link href="css/jquery.slideBox.css" rel="stylesheet" type="text/css" />
+		<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+		<script src="js/jquery.slideBox.min.js" type="text/javascript"></script>
+		<script>
+			jQuery(function($){
+				$('#demo1').slideBox();
+					});
+		</script>
+	</head>
+		
+	<body>
+	<div id="header">
+			  <div id="name"></div>
+			<div id="banner">Welcome To My Web!</div>
+			<div style="clear:both;"/>
+			<div id="navbar";/>
+				<ul>
+					<li><a href="MY WEB.html">Front Page </a></li>
+					<li><a href="web1/LeBron.html" target="_blank">Part1</a></li>
+					<li><a href="web2/Jason Statham.html" target="_blank">Part2</a></li>
+					<li><a href="web3/Linkin Park.html" target="_blank">Part3</a></li>
+					<li><a href="web4/ccSlider/Hitman 47.html" target="_blank">Part4</a></li>
+		 	  </ul>
+			</div>	 
+				<div style="clear:both;"/>
+				<div id="demo1" class="slideBox">
+                  <ul class="items">
+                    <li><a href="go/to/your/url.html" title="Part1: LeBron James"><img src="img/1.jpg" width="979" height="467"></a></li>
+                    <li><a href="go/to/your/url.html" title="Part2: Jason Statham"><img src="img/2.jpg" width="960" height="464"></a></li>
+                    <li><a href="go/to/your/url.html" title="Part3:LinkinPark"><img src ="img/3.jpg"></a></li>
+                    <li><a href="go/to/your/url.html" title="Part4: Hitman 47"><img src ="img/4.jpg"></a></li>
+                    <li><a href="go/to/your/url.html" title="Keep Working Hard ,Chase Dreams !"><img src="img/5.jpg"></a></li>
+                  </ul>
+	  </div>
+				<div id="main">
+					<div id="left">
+					  <p><font fa face="新宋体" color="#00CC99">Personnal Introdution</font></p>
+					<p>Name:Tom King</p>
+					<p>Chinese Name:王晨宇</p>
+					<p>Born:1996/11/30</p>
+					<p>School:China University of Mining and Technology</p>
+					<p>From:School of Management</p>
+					<p>Class:E-Commerce 2014-2</p>										
+				  </div>
+					<div id="right">
+					  <p><font face="宋体" size="15px" color="#FF0099">Want to know more about me ?</font></p>
+					<p><font size="5px">Please click other links above<a>&uarr;&uarr;</a></font></p>
+					<p>&nbsp;</p>
+					<form name="myform">
+					<p><input type="text" value="" name="mytext" onMouseOver="this.select();"/> 
+				      <img src="baidu.png" alt="baidu" width="139" height="51"></img> Use baidu to.... </p>
+					<p> 
+					  <input type="button"  onClick="search()" value="search information"/ >
+					 
+					  </p>
+					 </form>
+					<div style="clear:both;"/>
+				  </div>
+				</div>
+			<div id="foot" >
+				&euro;Alright,this is my front page
+			</div>
+	</div>
+	
+
+</body>
+
+</html>

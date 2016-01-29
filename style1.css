@@ -1,6 +1,6 @@
 body { margin: 0; background-color:#CCCCCC;)}
 #header { width: 980px; margin: 0 auto; }
-#name { width: 404px; height: 100px; float: left; background-image:url(tom.JPG); text-indent: 10px; }
+#name { width: 404px; height: 100px; float: left; background-image:url(Tom.jpg); text-indent: 10px; }
 #banner { width: 575px; height: 100px; float: right; line-height:100px; font-size: 36px; text-align: center; background-color: #00CCCC; border:none;}
 #navber{
 	width:980px;
